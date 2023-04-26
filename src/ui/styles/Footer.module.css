@@ -1,0 +1,83 @@
+/* Footer.css */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  width: 100%;
+  margin: auto 0;
+  bottom: 0;
+}
+.elements{
+  display: flex;
+  justify-content: space-around;
+  margin: 1% auto 1% auto;
+  
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 12%;
+  margin: auto 0
+}
+.icones {
+  display: flex;
+  justify-content: space-between;
+}
+.icones a{
+  color: #ccc;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+.icones a:nth-child(1):hover {
+  color: #fff;
+}
+.icones a:nth-child(2):hover {
+  color: #fff;
+}
+.icones a:nth-child(3):hover {
+  color: #fff;
+}
+
+
+.cop1 {
+  display: flex;
+  margin-top: 10%;
+}
+.logo_img {
+  display: flex;
+  margin: auto 0;
+  flex-direction: column;
+}
+.logo_img img {
+  width:  50px;
+  height: 50px; /* altura máxima de 50 pixels, ajuste de acordo com suas necessidades */
+  margin: auto;
+}
+.frases {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+
+@media (max-width: 768px) {
+  .elements {
+    flex-direction: column;
+  }
+  .logo_img {
+    margin: 0 auto;
+    width: 35%;
+  }
+  .contato {
+    margin: 1% auto 0 auto;
+    width: 30%;
+  }
+  .frases h6 {
+    margin-left:2%;
+  }
+  .elements {
+    margin: 5% auto 5% auto;
+  }
+}
