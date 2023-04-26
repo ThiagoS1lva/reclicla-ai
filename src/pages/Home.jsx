@@ -1,8 +1,12 @@
 import ParallaxImage from '../ui/components/Home/ParallaxImage';
-function Home() {
-    return(
-        <ParallaxImage/>
+import TextImage from '../ui/components/Home/TextImage';
 
+function Home() {
+    return (
+        <>
+            <ParallaxImage />
+            <TextImage />
+        </>
     )
 }
 

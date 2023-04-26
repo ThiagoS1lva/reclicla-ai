@@ -7,7 +7,7 @@ const ParallaxImage = () => {
         <Parallax bgImage={imagem} strength={500}>
             <div style={{ height: 500 }}>
                 <div className={styles.texto}>
-                    <h1>Seu texto aqui</h1>
+                    <h1>Recicle hoje para um amanhã melhor.</h1>
                 </div>
             </div>
         </Parallax>
