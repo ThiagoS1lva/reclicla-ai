@@ -1,0 +1,20 @@
+.transparencia {
+    background: #b8eb75;
+}
+
+.color {
+    background-color: rgb(240, 255, 244);
+}
+
+.teste {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.teste li {
+    color: rgb(49, 156, 0);
+}
+
+.ul {
+    transition: 240ms linear;
+}

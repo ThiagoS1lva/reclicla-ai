@@ -1,0 +1,246 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+
+.containerInfo {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.containerInfo1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.containerInfo1 p {
+    width: 80%;
+    font-size: 20px;
+    padding: 3%;
+    margin-bottom: 8%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.btnEdit {
+    border: none;
+    background-color: #080808;
+    width: 10%;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+}
+
+.formularioInfo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 2%;
+}
+
+.deslogar {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+.deslogar button {
+    border:none;
+    width: 100px;
+    background-color: #cf3535;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    transition: all 0.3s ease-in-out;
+}
+.deslogar button:hover {
+    box-shadow: 0px 1px 15px rgba(211, 2, 2, 0.801);
+}
+.admin {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+.admin button {
+    border:none;
+    width: 100px;
+    background-color: rgb(91, 243, 91);
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    transition: all 0.3s ease-in-out;
+}
+.admin button:hover {
+    box-shadow: 0px 1px 15px rgb(91, 243, 91);
+}
+
+.formularioInfo label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.formularioInfo label input {
+
+    width: 60%;
+    margin-bottom: 1%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 1%;
+}
+
+.formularioInfo label input:focus {
+    outline: none;
+    border: 1px solid #000;
+}
+
+.btnCancel {
+    border: none;
+    width: 40%;
+    margin-top: 4%;
+    padding: 2%;
+    background-color: rgb(252, 131, 131);
+    box-shadow: 0px 2px 20px rgba(255, 0, 0, 0.829);
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+.btnCancel:hover {
+    border: none;
+    background-color: rgb(240, 93, 93);
+}
+
+.btnInfo {
+    border: none;
+    width: 40%;
+    margin-top: 4%;
+    padding: 2%;
+    background-color: rgb(147, 255, 147);
+    box-shadow: 0px 2px 20px rgba(0, 126, 0, 0.979);
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+
+.btnInfo:hover {
+    border: none;
+    background-color: rgb(97, 218, 97)
+}
+
+.containerInfoCEP {
+    width: 50%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.containerInfo2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInfo2 p {
+    width: 80%;
+    font-size: 20px;
+    padding: 3%;
+    margin-bottom: 8%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.containerColeta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.formulario label {
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.formulario input {
+    width: 60%;
+    margin-bottom: 3%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 1%;
+}
+
+.formulario input:focus {
+    outline: none;
+    border: 1px solid #000;
+}
+
+.formulario button {
+    margin: 5% auto 0 auto;
+    width: 30%;
+    height: 15%;
+    border-radius: 10px;
+    border: 1px solid rgba(51, 158, 51, 0.349);
+    box-shadow: 0px 5px 15px rgba(51, 158, 51, 0.726);
+    transition: all 0.3s ease-in-out;
+}
+
+.formulario button:hover {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.938);
+    border: none;
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .containerInfo {
+        flex-direction: column;
+    }
+
+    .containerInfo1 {
+        width: 100%;
+    }
+
+    .containerInfoCEP {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 5%;
+    }
+    .formularioInfo label {
+        font-size: 22px;
+    }
+    .formularioInfo label input {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+    .btnCancel {
+        width: 47%;
+    }
+    .btnInfo {
+        width: 47%;
+    }
+}

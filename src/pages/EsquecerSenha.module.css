@@ -1,0 +1,90 @@
+.container {
+    width: 80%;
+    display: flex;
+    margin: 5% auto;
+    min-height: 80vh;
+    flex-direction: column;
+}
+.container h2 {
+    margin: 0 auto;
+    font-size: 40px;
+}
+.containerRedef {
+    display: flex;
+    width: 50%;
+    margin: 2% auto 0 auto;
+    padding: 5% 1% 5% 1%;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.containerForm {
+    display: flex;
+    margin: 5% auto;
+    width: 65%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+.form input {
+    margin: 0 auto 3% auto;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    border: none;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    height: 32px;
+    font-size: 18px;
+}
+.form input:focus {
+    border: 1px solid #ccc;
+}
+.form label {
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+}
+.botao {
+    font-size: 18px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    
+}
+.botao:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.containerB{
+    display: flex;
+    margin: 5% auto 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+    .container h2 {
+        font-size: 33px;
+    }
+    .containerRedef {
+        width: 90%;
+    }
+    .containerB{
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.dad {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgba(160, 255, 160, 0.432);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    width: 95%;
+    
+}
+.direita {
+    width: 50%;
+    margin: 10% auto 0;
+}
+.esquerda {
+    width: 50%;
+}
+.esquerda img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .direita {
+        width: 100%;
+    }
+    .esquerda {
+        width: 100%;
+    }
+}

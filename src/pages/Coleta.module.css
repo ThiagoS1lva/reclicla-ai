@@ -1,0 +1,51 @@
+.coleta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.coleta h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.coleta input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.coleta .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coleta .card {
+  width: calc(33.33% - 20px);
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.h1{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .coleta .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coleta .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.dad {
+    display: flex;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto 1% auto;
+    justify-content: space-between;
+    width: 96%;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.title {
+    margin-bottom: 5%;
+}
+.btn {
+    margin-top: 15%;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction:column;
+    }
+    .esquerda {
+        margin: 0 auto;
+    }
+    .gif1 {
+        width:100%
+    }
+    .dad {
+        min-height: 75vh;
+    }
+}

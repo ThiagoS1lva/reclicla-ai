@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.GalleryImageWrapper {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.GalleryImage {
+  width: 300px;
+  height: auto;
+  border: 3px solid rgb(79, 158, 33);
+}
+
+.imageText {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+

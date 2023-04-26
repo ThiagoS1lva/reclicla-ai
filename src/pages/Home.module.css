@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.glass {
+    height: 10px;
+}
+
+.gifzada {
+    position: relative;
+    bottom: 60px;
+    left: 450px;
+}
+      
+.menu {
+    background-color: white;
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.paragraph {
+    position: relative;
+    top: 285px;
+    left: 355px;
+}
+
+.btn {
+    position: relative;
+    top: 70px;
+    left: 420px;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+

@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    width: 97%;
+    margin: 0 auto 5% auto;
+    flex-direction: column;
+
+}
+
+.dad {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.direita {
+    width: 50%;
+}
+
+.esquerda {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.conteudo {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.conteudo div {
+    margin-bottom: 5%;
+}
+
+.telefone {
+    display: flex;
+}
+
+.email {
+    display: flex;
+}
+
+.linha {
+    background-color: rgb(91, 243, 91);
+    border-radius: 5px;
+    height: 10px;
+    width: 20%;
+}
+
+.iconesR {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.iconesR a {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+.iconesR a:hover {
+    color: rgb(91, 243, 91);
+}
+
+@media (max-width: 768px) {
+    .dad {
+        flex-direction: column;
+    }
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .direita {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .iconesR {
+        width: 50%;
+    }
+}

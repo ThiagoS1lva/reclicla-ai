@@ -1,0 +1,23 @@
+.staff {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8.75vw;
+}
+
+
+
