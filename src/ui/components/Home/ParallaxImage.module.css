@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .texto {
     display: flex;
 }
+
 .texto h1 {
     margin-top: 300px;
     margin-left: 50px;
