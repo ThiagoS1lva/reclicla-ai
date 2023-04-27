@@ -73,6 +73,9 @@
     .texto p {
         font-size: 0.8rem;
     }
+    .texto p:last-child {
+        margin-top: 1%;
+    }
 
     .btn {
         width: 80px;
